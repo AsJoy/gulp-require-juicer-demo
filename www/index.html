@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+<div id="container">
+  
+</div>
+  <script src="../static/require.js"></script>
+  <script>
+    requirejs.config({
+      baseUrl: '../dist/',
+      paths: {
+        jquery: '../www/js/lib/jquery3.0.0-pre/jquery'
+      }
+    })
+    requirejs(['js/app']);
+  </script>
+</body>
+</html>

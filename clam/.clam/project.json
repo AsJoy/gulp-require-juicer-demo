@@ -1,0 +1,19 @@
+{
+    "name": "clam",
+    "pageext": ["html"],
+    "pagedirlevel": ["single"],
+    "build": ["merge"],
+    "charset": ["gbk", "utf-8"],
+    "pagesDir": "src/pages",
+    "modsDir": "src/mods",
+    "widgetsDir": "src/widgets",
+    "buildDir": "build",
+    "testsDir": "tests",
+    "cdnPath": "",
+    "port": [80, 443],
+    "urls": {},
+    "hosts": "",
+    "hostsMap": {},
+    "json": [],
+    "filter": {}
+}
